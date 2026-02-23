@@ -1,0 +1,9 @@
+* text=auto eol=If
+*.bat text eol=crlf
+
+# Client source files - normalize to LF
+client/**/*.jsx     text eol=lf
+client/**/*.js      text eol=lf
+client/package*.json text eol=lf
+client/*.config.js  text eol=lf
+client/**/*.css     text eol=lf
